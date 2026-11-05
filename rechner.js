@@ -3,7 +3,7 @@
 
    Einbindung:
    <div id="pv-rechner"></div>
-   <script defer src="https://cdn.jsdelivr.net/gh/epaxalexn/solarrechner@main/rechner.js"
+   <script defer src="https://cdn.jsdelivr.net/gh/Epax-Solar/solarrechner@main/rechner.js"
      data-name="Firmenname"
      data-phone="+49 …"
      data-email="anfrage@firma.de"
@@ -444,7 +444,7 @@
     if (!content) return EPAX_HREF;
     return EPAX_HREF + "&utm_content=" + encodeURIComponent(content).replace(/%20/g, "+");
   }
-  var EPAX_LOGO = "https://cdn.jsdelivr.net/gh/epaxalexn/solarrechner@main/epax%20solar%20pv%20grosshandel%20logo%20350px.webp";
+  var EPAX_LOGO = "https://cdn.jsdelivr.net/gh/Epax-Solar/solarrechner@main/epax%20solar%20pv%20grosshandel%20logo%20350px.webp";
 
   var CSS = bang(""
     + ":host{all:initial;display:block;width:100%;box-sizing:border-box;font-family:'Segoe UI','Helvetica Neue',sans-serif;font-size:16px;line-height:1.45;color:#1c1c1c;--epax-solarrechner-primary:#1f6b4a;--epax-solarrechner-bg:#f6f3ec;--epax-solarrechner-text:#1c1c1c;--epax-solarrechner-on-primary:#fff;--epax-solarrechner-line:color-mix(in srgb,var(--epax-solarrechner-text) 14%,transparent);--epax-solarrechner-muted:color-mix(in srgb,var(--epax-solarrechner-text) 68%,transparent)}"
