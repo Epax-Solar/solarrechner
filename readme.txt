@@ -2,7 +2,7 @@ Einbindung
 
 <div id="pv-rechner"></div>
 <script defer
-  src="https://cdn.jsdelivr.net/gh/epaxalexn/solarrechner@main/rechner.js"
+  src="https://cdn.jsdelivr.net/gh/Epax-Solar/solarrechner@main/rechner.js"
   data-name="Sonnenwerk GmbH"
   data-phone="+49 89 123456"
   data-email="anfrage@sonnenwerk.de"
